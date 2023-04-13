@@ -1,0 +1,6 @@
+/home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/leo/CLion-2023.1.1/clion-2023.1.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/leo/projects/uni/cpp/ue1-1 -B /home/leo/projects/uni/cpp/ue1-1/cmake-build-debug
+CMake Error at CMakeLists.txt:2 (project):
+  project PROJECT called with incorrect number of arguments
+
+
+-- Configuring incomplete, errors occurred!
