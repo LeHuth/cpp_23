@@ -13,6 +13,8 @@ namespace my {
         Vec3f(float x = 0, float y = 0, float z = 0) : data_{x,y,z} {}
         float operator[](int i) const;
         float& operator[](int i);
+        bool operator==(const Vec3f& other) const;
+        bool operator!=(const Vec3f& other) const;
 
     private:
         std::array<float, 3> data_;
