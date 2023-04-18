@@ -9,10 +9,13 @@
 
 namespace my {
     class Vec3f {
-        Vec3f(float x = 0, float y = 0, float z = 0) : data_{x,y,z} {}
     public:
+        Vec3f(float x = 0, float y = 0, float z = 0) : data_{x,y,z} {}
+        float operator[](int i);
+
     private:
         std::array<float, 3> data_;
     };
+
 };
 #endif //HELLO_WORLD_VEC2_H
