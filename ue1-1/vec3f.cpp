@@ -3,7 +3,7 @@
 //
 #include "vec3f.h"
 
-float my::Vec3f::operator[](int i) {
+float my::Vec3f::operator[](int i) const {
     return data_[i];
 }
 

@@ -11,7 +11,7 @@ namespace my {
     class Vec3f {
     public:
         Vec3f(float x = 0, float y = 0, float z = 0) : data_{x,y,z} {}
-        float operator[](int i);
+        float operator[](int i) const;
 
     private:
         std::array<float, 3> data_;

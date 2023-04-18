@@ -20,11 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c458db28-ae45-44cf-964a-ec13466c9936" name="Changes" comment="random files">
-      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    <list default="true" id="c458db28-ae45-44cf-964a-ec13466c9936" name="Changes" comment="second test">
       <change beforePath="$PROJECT_DIR$/ue1-1/test11.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/test11.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue1-1/vec3f.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/vec3f.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ue1-1/vec3f.h" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/vec3f.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +107,7 @@
       <updated>1681376286166</updated>
       <workItem from="1681376287165" duration="519000" />
       <workItem from="1681376827705" duration="645000" />
-      <workItem from="1681830189367" duration="4242000" />
+      <workItem from="1681830189367" duration="4426000" />
     </task>
     <task id="LOCAL-00001" summary="added my namespace">
       <created>1681376938509</created>
@@ -132,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681834923123</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second test">
+      <created>1681835461993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681835461993</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +164,7 @@
     <MESSAGE value="added my namespace" />
     <MESSAGE value="initial test passed" />
     <MESSAGE value="random files" />
-    <option name="LAST_COMMIT_MESSAGE" value="random files" />
+    <MESSAGE value="second test" />
+    <option name="LAST_COMMIT_MESSAGE" value="second test" />
   </component>
 </project>
