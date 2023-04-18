@@ -4,11 +4,15 @@
 
 #ifndef HELLO_WORLD_VEC2_H
 #define HELLO_WORLD_VEC2_H
+
+#include <array>
+
 namespace my {
-    class Vec2 {
-        Vec2(float x, float y) : x(x), y(y) {});
+    class Vec3f {
+        Vec3f(float x = 0, float y = 0, float z = 0) : data_{x,y,z} {}
     public:
     private:
-        }
+        std::array<float, 3> data_;
+    };
 };
 #endif //HELLO_WORLD_VEC2_H

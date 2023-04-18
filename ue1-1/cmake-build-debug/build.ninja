@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Project
+# Project: ue1-1
 # Configurations: Debug
 # =============================================================================
 
@@ -39,13 +39,56 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/leo/projects/uni/cpp/hello_world/cmake-build-debug/
+cmake_ninja_workdir = /home/leo/projects/cpp_23/ue1-1/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target ue1-1
+
+
+#############################################
+# Order-only phony target for ue1-1
+
+build cmake_object_order_depends_target_ue1-1: phony || CMakeFiles/ue1-1.dir
+
+build CMakeFiles/ue1-1.dir/main.cpp.o: CXX_COMPILER__ue1-1_Debug /home/leo/projects/cpp_23/ue1-1/main.cpp || cmake_object_order_depends_target_ue1-1
+  DEP_FILE = CMakeFiles/ue1-1.dir/main.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/ue1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/ue1-1.dir
+
+build CMakeFiles/ue1-1.dir/vec3f.cpp.o: CXX_COMPILER__ue1-1_Debug /home/leo/projects/cpp_23/ue1-1/vec3f.cpp || cmake_object_order_depends_target_ue1-1
+  DEP_FILE = CMakeFiles/ue1-1.dir/vec3f.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/ue1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/ue1-1.dir
+
+build CMakeFiles/ue1-1.dir/test11.cpp.o: CXX_COMPILER__ue1-1_Debug /home/leo/projects/cpp_23/ue1-1/test11.cpp || cmake_object_order_depends_target_ue1-1
+  DEP_FILE = CMakeFiles/ue1-1.dir/test11.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/ue1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/ue1-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ue1-1
+
+
+#############################################
+# Link the executable ue1-1
+
+build ue1-1: CXX_EXECUTABLE_LINKER__ue1-1_Debug CMakeFiles/ue1-1.dir/main.cpp.o CMakeFiles/ue1-1.dir/vec3f.cpp.o CMakeFiles/ue1-1.dir/test11.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ue1-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ue1-1
+  TARGET_PDB = ue1-1.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/leo/projects/uni/cpp/hello_world/cmake-build-debug && /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/leo/projects/cpp_23/ue1-1/cmake-build-debug && /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +99,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/leo/projects/uni/cpp/hello_world/cmake-build-debug && /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/leo/projects/uni/cpp/hello_world -B/home/leo/projects/uni/cpp/hello_world/cmake-build-debug
+  COMMAND = cd /home/leo/projects/cpp_23/ue1-1/cmake-build-debug && /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/leo/projects/cpp_23/ue1-1 -B/home/leo/projects/cpp_23/ue1-1/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -72,14 +115,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/leo/projects/uni/cpp/hello_world/cmake-build-debug
+# Folder: /home/leo/projects/cpp_23/ue1-1/cmake-build-debug
 
-build all: phony
-
-# =============================================================================
-# Unknown Build Time Dependencies.
-# Tell Ninja that they may appear as side effects of build rules
-# otherwise ordered by order-only dependencies.
+build all: phony ue1-1
 
 # =============================================================================
 # Built-in targets
@@ -88,14 +126,14 @@ build all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /home/leo/projects/uni/cpp/hello_world/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /home/leo/projects/cpp_23/ue1-1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /home/leo/projects/uni/cpp/hello_world/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /home/leo/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /home/leo/projects/cpp_23/ue1-1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################
