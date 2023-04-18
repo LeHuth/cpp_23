@@ -7,3 +7,7 @@ float my::Vec3f::operator[](int i) const {
     return data_[i];
 }
 
+float& my::Vec3f::operator[](int i) {
+    return data_[i];
+}
+

@@ -12,6 +12,7 @@ namespace my {
     public:
         Vec3f(float x = 0, float y = 0, float z = 0) : data_{x,y,z} {}
         float operator[](int i) const;
+        float& operator[](int i);
 
     private:
         std::array<float, 3> data_;
