@@ -70,9 +70,6 @@ void test_Vec3f() {
         cout << "  addition: ";
         Vec3f a(1,2,3), b(4,5,6);
         a += b;
-        cout << a[0] << endl;
-        cout << a[1] << endl;
-        cout << a[2] << endl;
         assert( a == Vec3f(5,7,9) );
         auto c = a + Vec3f(1,1,1);
         assert( c == Vec3f(6,8,10) );
@@ -85,14 +82,14 @@ void test_Vec3f() {
         assert( x == y );
         cout << "passed." << endl;
     }
-# if 0
+
     {
         cout << "  unary minus: ";
         Vec3f a(1,2,3);
         assert( -a == Vec3f(-1,-2,-3) );
         cout << "passed." << endl;
     }
-    
+
     {
         cout << "  dot product: ";
         Vec3f a(1,2,3);
@@ -114,8 +111,8 @@ void test_Vec3f() {
         cout << "passed." << endl;
     }
 
-    cout << "all Vec3f tests passed." << endl << endl;   
-
+    cout << "all Vec3f tests passed." << endl << endl;
+# if 0
 #endif // not NDEBUG
 
 }
