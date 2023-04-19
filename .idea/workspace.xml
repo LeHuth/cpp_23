@@ -20,8 +20,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c458db28-ae45-44cf-964a-ec13466c9936" name="Changes" comment="addition passed">
+    <list default="true" id="c458db28-ae45-44cf-964a-ec13466c9936" name="Changes" comment="all ue1 tests passed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/CMakeFiles/ue1-1.dir/test11.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/CMakeFiles/ue1-1.dir/test11.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/CMakeFiles/ue1-1.dir/vec3f.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/CMakeFiles/ue1-1.dir/vec3f.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue1-1/cmake-build-debug/ue1-1" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/cmake-build-debug/ue1-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue1-1/test11.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/test11.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ue1-1/vec3f.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/vec3f.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ue1-1/vec3f.h" beforeDir="false" afterPath="$PROJECT_DIR$/ue1-1/vec3f.h" afterDir="false" />
     </list>
@@ -107,7 +114,7 @@
       <updated>1681376286166</updated>
       <workItem from="1681376287165" duration="519000" />
       <workItem from="1681376827705" duration="645000" />
-      <workItem from="1681830189367" duration="8294000" />
+      <workItem from="1681830189367" duration="8735000" />
     </task>
     <task id="LOCAL-00001" summary="added my namespace">
       <created>1681376938509</created>
@@ -165,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681838389796</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="all ue1 tests passed">
+      <created>1681898999866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681898999866</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +211,7 @@
     <MESSAGE value="fourth test" />
     <MESSAGE value="comparison test passed" />
     <MESSAGE value="addition passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="addition passed" />
+    <MESSAGE value="all ue1 tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="all ue1 tests passed" />
   </component>
 </project>
