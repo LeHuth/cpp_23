@@ -27,7 +27,6 @@ void test_Vec3f() {
         Vec3f b(1, 2, 3);
         assert( b[0] == 1 && b[1] == 2 && b[2] == 3 );
         cout << "passed." << endl;
-        cout << b[8] << endl;
     }
 
     {

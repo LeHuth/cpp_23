@@ -10,10 +10,6 @@ namespace my {
         std::array<float, 3> data;
 
     public:
-        float get_x() const;
-        float get_y() const;
-        float get_z() const;
-
         Vec3f(float x =0.0f, float y=0.0f, float z=0.0f)
         : data{x,y,z}
         {}
