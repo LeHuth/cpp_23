@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/leona/CLionProjects/cpp_23/A1-2/lib/tests/test11.cpp" "CMakeFiles/A1_2.dir/lib/tests/test11.cpp.obj" "gcc" "CMakeFiles/A1_2.dir/lib/tests/test11.cpp.obj.d"
-  "C:/Users/leona/CLionProjects/cpp_23/A1-2/lib/vec3f.cpp" "CMakeFiles/A1_2.dir/lib/vec3f.cpp.obj" "gcc" "CMakeFiles/A1_2.dir/lib/vec3f.cpp.obj.d"
   "C:/Users/leona/CLionProjects/cpp_23/A1-2/main.cpp" "CMakeFiles/A1_2.dir/main.cpp.obj" "gcc" "CMakeFiles/A1_2.dir/main.cpp.obj.d"
   )
 

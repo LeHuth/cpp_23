@@ -1,15 +1,15 @@
 #include <iostream>
-#include "lib/vec3f.h"
+#include "lib/vec.h"
+#include "lib/tests/genericVecTest.h"
 #include "lib/tests/test11.h"
+#include "lib/tests/genericTest.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
+    test_GeneericVec<int, 3>();
+    test_GeneericVec<int, 50>();
+    test_GeneericVec<float, 1>();
+    test_GeneericVec<double, 23>();
     test_Vec3f();
-/*    my::Vec3f test = my::Vec3f(1.2f,1.3f,1.5f);
-
-    std::cout << test.get_x() << std::endl;
-    std::cout << test.get_y() << std::endl;
-    std::cout << test.get_z() << std::endl;
-    std::cout << sizeof(test)<< std::endl;*/
     return 0;
 }

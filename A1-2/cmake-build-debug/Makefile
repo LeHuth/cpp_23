@@ -152,30 +152,6 @@ lib/tests/test11.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\A1_2.dir\build.make CMakeFiles/A1_2.dir/lib/tests/test11.cpp.s
 .PHONY : lib/tests/test11.cpp.s
 
-lib/vec3f.obj: lib/vec3f.cpp.obj
-.PHONY : lib/vec3f.obj
-
-# target to build an object file
-lib/vec3f.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A1_2.dir\build.make CMakeFiles/A1_2.dir/lib/vec3f.cpp.obj
-.PHONY : lib/vec3f.cpp.obj
-
-lib/vec3f.i: lib/vec3f.cpp.i
-.PHONY : lib/vec3f.i
-
-# target to preprocess a source file
-lib/vec3f.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A1_2.dir\build.make CMakeFiles/A1_2.dir/lib/vec3f.cpp.i
-.PHONY : lib/vec3f.cpp.i
-
-lib/vec3f.s: lib/vec3f.cpp.s
-.PHONY : lib/vec3f.s
-
-# target to generate assembly for a file
-lib/vec3f.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A1_2.dir\build.make CMakeFiles/A1_2.dir/lib/vec3f.cpp.s
-.PHONY : lib/vec3f.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -212,9 +188,6 @@ help:
 	@echo ... lib/tests/test11.obj
 	@echo ... lib/tests/test11.i
 	@echo ... lib/tests/test11.s
-	@echo ... lib/vec3f.obj
-	@echo ... lib/vec3f.i
-	@echo ... lib/vec3f.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

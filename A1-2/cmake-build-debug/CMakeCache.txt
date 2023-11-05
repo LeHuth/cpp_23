@@ -15,15 +15,6 @@
 ########################
 
 //Value Computed by CMake
-A1_1_BINARY_DIR:STATIC=C:/Users/leona/CLionProjects/cpp_23/A1-2/cmake-build-debug
-
-//Value Computed by CMake
-A1_1_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-A1_1_SOURCE_DIR:STATIC=C:/Users/leona/CLionProjects/cpp_23/A1-2
-
-//Value Computed by CMake
 A1_2_BINARY_DIR:STATIC=C:/Users/leona/CLionProjects/cpp_23/A1-2/cmake-build-debug
 
 //Value Computed by CMake
@@ -139,7 +130,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/leona/CLionProjects/cpp_23/A1-2
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/A1_1
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/A1_2
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Users/leona/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe

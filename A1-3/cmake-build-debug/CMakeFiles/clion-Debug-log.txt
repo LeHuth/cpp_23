@@ -1,0 +1,4 @@
+C:\Users\leona\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\leona\CLionProjects\cpp_23\A1-3 -B C:\Users\leona\CLionProjects\cpp_23\A1-3\cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/leona/CLionProjects/cpp_23/A1-3/cmake-build-debug
